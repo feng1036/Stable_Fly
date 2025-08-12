@@ -255,6 +255,25 @@ Code_Library
 │     ├─ stm32f4xx.h
 │     ├─ stm32f4xx_conf.h
 │     └─ system_stm32f4xx.h
+├─ M7M01_Eukaron()
+│  ├─ Source
+│  │  ├─ Platform
+│  │  │  └─ A7M
+│  │  │     ├─ rme_platform_a7m.c
+│  │  │     ├─ rme_platform_a7m_armcc.s
+│  │  │     └─ rme_platform_a7m_gcc.s
+│  │  └─ Kernel
+│  │     └─ rme_kernel.c
+│  └─ Include
+│     ├─ rme.h
+│     ├─ Platform
+│     │  └─ A7M
+│     │     ├─ rme_platform_a7m.h
+│     │     └─ Chip
+│     │        └─ STM32F411CE
+│     │           └─ rme_platform_stm32f411ce.h
+│     └─ Kernel
+│        └─ rme_kernel.h
 ├─ M7M02_Ammonite()
 │  ├─ Source
 │  │  ├─ Virtlib
@@ -284,25 +303,6 @@ Code_Library
 │     │           └─ rvm_platform_stm32f411ce.rvc
 │     └─ Monitor
 │        └─ rvm_monitor.h
-├─ M7M01_Eukaron()
-│  ├─ Source
-│  │  ├─ Platform
-│  │  │  └─ A7M
-│  │  │     ├─ rme_platform_a7m.c
-│  │  │     ├─ rme_platform_a7m_armcc.s
-│  │  │     └─ rme_platform_a7m_gcc.s
-│  │  └─ Kernel
-│  │     └─ rme_kernel.c
-│  └─ Include
-│     ├─ rme.h
-│     ├─ Platform
-│     │  └─ A7M
-│     │     ├─ rme_platform_a7m.h
-│     │     └─ Chip
-│     │        └─ STM32F411CE
-│     │           └─ rme_platform_stm32f411ce.h
-│     └─ Kernel
-│        └─ rme_kernel.h
 └─ M5P01_Prokaron()
    ├─ Source
    │  ├─ Platform
